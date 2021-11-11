@@ -18,6 +18,10 @@ public class LoadDatabase {
                     "8484234432 ","passwor234")));
             log.info("Preloading " + repository.save(new Customer("Srikanth","Banthu","srika@gmail.com",
                     "5684234432 ","passwor334")));
+            log.info("Preloading " + repository.save(new Customer("devi","bhavani","devi@gmail.com",
+                    "5684234432 ","passwor334")));
+            log.info("Preloading " + repository.save(new Customer("divya","shanku","divya@gmail.com",
+                    "5684234432 ","passwor334")));
         };
     }
 }
